@@ -1,8 +1,9 @@
 package com.example.jspfirstproject;
 
-import java.io.*;
-import javax.servlet.http.*;
 import javax.servlet.annotation.*;
+import javax.servlet.http.*;
+import java.io.IOException;
+import java.io.PrintWriter;
 
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
 public class HelloServlet extends HttpServlet {

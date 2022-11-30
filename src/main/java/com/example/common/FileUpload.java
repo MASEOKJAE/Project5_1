@@ -1,13 +1,13 @@
 package com.example.common;
 
-import java.io.File;
-import java.io.IOException;
-
 import com.example.bean.BoardVO;
 import com.example.dao.BoardDAO;
 import com.oreilly.servlet.MultipartRequest;
 import com.oreilly.servlet.multipart.DefaultFileRenamePolicy;
+
 import javax.servlet.http.HttpServletRequest;
+import java.io.File;
+import java.io.IOException;
 
 public class FileUpload {
     public BoardVO uploadPhoto(HttpServletRequest request) {
